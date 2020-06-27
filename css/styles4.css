@@ -1,0 +1,223 @@
+#team {
+    background: #eee !important;
+}
+.team-item {
+    border-radius: 8px 8px 0 0;
+    overflow: hidden;
+    width: 100%;
+    text-align: center;
+    background: linear-gradient(45deg, hsla(262, 98%, 41%, 1) 0%, hsla(262, 98%, 41%, 0) 70%), linear-gradient(135deg, hsla(304, 98%, 50%, 1) 10%, hsla(304, 98%, 50%, 0) 80%), linear-gradient(225deg, hsla(274, 97%, 41%, 1) 10%, hsla(274, 97%, 41%, 0) 80%), linear-gradient(315deg, hsla(261, 92%, 41%, 1) 100%, hsla(261, 92%, 41%, 0) 70%);
+}
+.team-item img {
+    width: 100%;
+    -webkit-transition: all 0.3s ease-in;
+    transition: all 0.3s ease-in;
+    height: 450px;
+}
+.team-main:hover img {
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}
+.team-main:hover img {
+    opacity: 0.3;
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+}
+.team-item span {
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    font-size: 18px;
+    width: 100%;
+    opacity: 0;
+    visibility: hidden;
+    color: rgba(247, 250, 251, 1);
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    -webkit-transition: all 0.3s ease-in;
+    transition: all 0.3s ease-in;
+ 
+}
+.team-item span a i{
+    color: #fff;
+    margin: 7px;
+    font-size: 22;
+}
+.team-item span a i:hover{
+    color: #000;
+}
+.team-main:hover span {
+    visibility: visible;
+    top: 35%;
+    -webkit-transition: all 500ms 100ms cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    transition: all 500ms 100ms cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    opacity: 1;
+}
+
+.name {
+    border-radius: 0 0 4px 4px;
+    padding: 15px;
+    background-color: rgba(247, 250, 251, 1);
+ 
+}
+.name p {
+    font-size: 14px;
+    color: #607D8B;
+}
+
+
+
+
+
+
+/** start team **/
+
+
+
+
+
+
+
+.team-style-ten .inner-box-10 {
+    position: relative;
+}
+.team-style-ten .inner-box-10 .image-10 {
+    position: relative;
+    text-align: center;
+    overflow: hidden;
+}
+.team-style-ten .inner-box-10 .image-10 .social-box-10 {
+    position: absolute;
+    left: -20px;
+    bottom: -40px;
+    right: 0px;
+    z-index: 1;
+    transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -webkit-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+}
+
+.team-style-ten .inner-box-10 .image-10 .social-box-10 {
+    position: absolute;
+    left: -20px;
+    bottom: -40px;
+    right: 0px;
+    z-index: 1;
+    transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -webkit-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+}
+
+.team-style-ten .inner-box-10:hover .image-10 .social-box-10 {
+    bottom: 20px;
+}
+.team-style-ten .inner-box-10 .lower-content-10 {
+    position: relative;
+    padding: 25px 0px;
+    text-align: center;
+    transition: all 300ms ease;
+    -webkit-transition: all 300ms ease;
+    -ms-transition: all 300ms ease;
+    -o-transition: all 300ms ease;
+}
+.team-style-ten .inner-box-10 .lower-content-10 h3 {
+    position: relative;
+    z-index: 1;
+    font-weight: 700;
+	font-family:'montserrat', sans-serif;
+    line-height: 1.3em;
+    margin-bottom: 5px;
+	font-size: 18px;
+	text-transform:uppercase;
+}
+.team-style-ten .inner-box-10:hover .lower-content-10 h3 a,
+.team-style-ten .inner-box-10:hover .lower-content-10 .designation-10,
+ .team-style-ten .inner-box-10:hover .lower-content-10 .social-box-10 li a
+{
+    color: #ffffff;
+}
+.team-style-ten .inner-box-10:hover .lower-content-10 .social-box-10 p
+{
+    color: transparent;
+}
+
+.team-style-ten:hover .lower-content-10:before, 
+.team-style-ten .inner-box-10:hover .lower-content-10:after {
+    width: 100%;
+    opacity: 1;
+    visibility: visible;
+}
+.team-style-ten.team-warp-ten .inner-box-10:hover .lower-content-10:after {
+    height: 100%;
+}
+.team-style-ten .inner-box-10:hover .image-10:before {
+    opacity: 1;
+}
+.team-style-ten .inner-box-10 .lower-content-10 .designation-10 {
+    position: relative;
+    font-size: 17px;
+    font-weight: 100;
+    color: #666666;
+    z-index: 1;
+    line-height: 1.3em;
+    transition: all 300ms ease;
+    -webkit-transition: all 300ms ease;
+    -ms-transition: all 300ms ease;
+    -o-transition: all 300ms ease;
+}
+.team-style-ten.team-warp-ten .inner-box-10 .lower-content-10:after {
+    position: absolute;
+    content: '';
+    left: 0px;
+    bottom: 0px;
+    width: 100%;
+    height: 0%;
+    display: block;
+    background: -ms-linear-gradient(top, #3140FC 0%, #0b1599 100%);
+    background: -moz-linear-gradient(top, #3140FC 0%, #0b1599 100%);
+    background: -o-linear-gradient(top, #3140FC 0%, #0b1599 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0, #3140FC), color-stop(100, #0b1599));
+    background: -webkit-linear-gradient(top, #3140FC 0%, #0b1599 100%);
+    background: linear-gradient(to bottom, #3140FC 0%, #0b1599 100%);
+}
+
+.team-style-ten .inner-box-10 .lower-content-10:after {
+    position: absolute;
+    content: '';
+    right: 0px;
+    top: 0px;
+    width: 0%;
+    height: 100%;
+    opacity: 0;
+    visibility: hidden;
+    background-color: #ec0203;
+    transition: all 600ms ease;
+    -webkit-transition: all 600ms ease;
+    -ms-transition: all 600ms ease;
+    -o-transition: all 600ms ease;
+}
+
+
+
+/** end team **/
+
+.heading-title {
+    margin-bottom: 100px;
+}
+.text-center {
+    text-align: center;
+}
+.heading-title h3 {
+    margin-top: 40;
+    margin-bottom: 0;
+    letter-spacing: 2px;
+    font-weight: 600;
+}
+.p-top-30 {
+    padding-top: 30px;
+    font-size: 20
+}
