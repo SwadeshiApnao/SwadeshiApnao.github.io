@@ -1,3 +1,8 @@
+@viewport {
+  width: device-width ;
+  zoom: 1.0 ;
+}
+
 #team {
     background: #eee !important;
 }
@@ -113,11 +118,11 @@
 }
 
 .team-style-ten .inner-box-10:hover .image-10 .social-box-10 {
-    bottom: 20px;
+    bottom: 10px;
 }
 .team-style-ten .inner-box-10 .lower-content-10 {
     position: relative;
-    padding: 25px 0px;
+    padding: 15px 0px;
     text-align: center;
     transition: all 300ms ease;
     -webkit-transition: all 300ms ease;
