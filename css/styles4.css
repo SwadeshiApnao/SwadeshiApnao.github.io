@@ -17,7 +17,7 @@
     width: 100%;
     -webkit-transition: all 0.3s ease-in;
     transition: all 0.3s ease-in;
-    height: 450px;
+    height: 470px;
 }
 .team-main:hover img {
     -webkit-transform: scale(1.1);
@@ -225,4 +225,51 @@
 .p-top-30 {
     padding-top: 30px;
     font-size: 20
+}
+
+
+@import url('https://fonts.googleapis.com/css?family=Poppins');
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+.copyright{
+    background-color:white;
+}
+
+.copyright p{
+   margin:15px 0px;
+}
+
+footer{
+	background-color:black;
+	padding: 40px 0px;
+}
+
+footer .menu li a{
+	color:#b1aca1;
+	padding:10px;
+	text-decoration:uppercase;
+    font-size: 25px;
+}
+
+footer .menu li a:hover{
+	color:red;
+}
+
+.fa.fa-facebook-square , 
+.fa.fa-instagram, 
+.fa.fa-twitter-square , 
+.fa.fa-medium {
+	color:white;
+	font-size:25px;
+	padding:10px;
+}
+
+.fa.fa-facebook-square:hover, 
+.fa.fa-instagram:hover,
+.fa.fa-twitter-square:hover,
+.fa.fa-medium:hover {
+	color:red;
 }
