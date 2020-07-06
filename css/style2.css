@@ -1,0 +1,136 @@
+
+.gallery-title
+{
+    font-size: 36px;
+    color: green;
+    text-align: center;
+    font-weight: 500;
+    margin-bottom: 70px;
+}
+.gallery-title:after {
+    content: "";
+    position: absolute;
+    width: 10.5%;
+    left: 45.5%;
+    height: 45px;
+    border-bottom: 1px solid #5e5e5e;
+}
+.filter-button
+{
+    font-size: 15px;
+    border: 1px solid #42B32F;
+    border-radius: 9px;
+    text-align: center;
+    color: green;
+    margin-bottom: 25px;
+
+}
+.filter-button:hover
+{
+    font-size: 15px;
+    border: 1px solid blue;
+    border-radius: 9px;
+    text-align: center;
+    color: #ffffff;
+    background-color: blue;
+
+}
+.btn-default:active .filter-button:active
+{
+    background-color: #42B32F;
+    color: white;
+}
+
+.port-image
+{
+    width: 100%;
+}
+
+.gallery_product
+{
+    margin-bottom: 30px;
+}
+
+.img-responsive {
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 18%;
+}
+
+
+
+
+footer{
+	background-color:black;
+    padding: 25px 0px;
+}
+
+footer ul{
+    list-style:none;
+    margin:0 auto;
+    display:inline-block;
+    padding-top:30px;
+    padding-left: 16px;
+}
+
+footer ul li{
+    float:left;
+}
+
+footer ul li a{
+	color:white;
+    padding:20px;
+    font-size: 13px;
+    margin:0 auto;
+}
+
+footer ul li a:hover{
+	color:green;
+	text-decoration:none;
+    font-size: 15px;
+    margin:0 auto;
+}
+
+.footer-top{
+	padding-bottom:30px;
+}
+
+.footer-top .fa{
+    font-size:40px;
+    color: #FFF;
+    padding-right:5px;
+
+}
+
+
+.copyright{
+    background-color: white!important;
+    text-align: center;
+}
+
+.copyright p{
+margin:0 auto;
+    text-align: center;
+    font-size: 16;
+    padding-top:15px;
+    padding-bottom: 15px;
+}
+
+
+/*
+    Multicoloured Hover Variations
+*/
+ 
+ #facebook:hover {
+     color: #3B5998;
+ }
+ #twitter:hover {
+     color: #4099FF;
+ }
+ #instagram:hover {
+     color: red;
+ }
+ #medium:hover {
+     color: #f39c12;
+ }
